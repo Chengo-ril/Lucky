@@ -1,0 +1,181 @@
+body {
+   background-color: whitesmoke;
+   line-height: 1.6rem;
+   text-align: center;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px; 
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    border-radius: 0.7rem;
+    padding: 2rem;
+}
+
+
+/* .menu {
+    display: inline-block;
+    padding-right: 4rem;
+} */
+
+/* .menu a {
+    text-decoration: none;
+    color: rgb(126, 86, 86);
+    font-size: 1.2rem;
+} */
+
+/* .menu a:hover {
+    color: rgb(139, 52, 52);
+    font-size: 1.3rem;
+} */
+
+section {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+article {
+    flex: 1;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+
+#first {
+    border: 2px solid rgb(126, 86, 86);
+    box-shadow: 2px 2px inset;
+}
+
+article > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+article > img:hover {
+    width: 16%;
+}
+
+.dope {
+    border: 1px solid rgb(139, 52, 52);
+    border-radius: 1rem;
+    width: 90%;
+    margin: 1.2rem;
+}
+
+.dope:hover {
+    background-color: rgba(153, 118, 118, 0.089);
+    border: 2px solid rgb(23, 122, 23);
+}
+
+.fam_para {
+    padding: 0.4rem 2rem;
+}
+
+
+.button {
+    background-color: rgb(224, 90, 90);
+    display: block;
+    margin: 0 auto 1rem;
+    padding: 1rem 2rem;
+    border: 0;
+}
+
+.button:hover {
+    background-color: whitesmoke;
+    border: 2px solid rgb(224, 90, 90);
+    border-radius: 5px;
+}
+
+.buff {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+footer {
+    /* display: flex; */
+    background-color: rgb(59, 56, 56);
+    color: rgb(92, 69, 69);
+    padding: 1.2rem;    
+}
+
+div {
+    flex: 1;
+}
+
+#image_foot {
+    display: inline-block;
+    margin-bottom: -2.5rem;
+    margin-left: 2rem;  
+    width: 30px;
+}
+
+footer p {
+    color: #fff;
+}
+
+.hero {
+    background-color: whitesmoke;    
+    background-blend-mode:color-dodge;
+    background-image: url(images/Asset\ 1@3x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:570px) {
+    .hero {
+        background-image: none;
+        background-color: #fff;
+    }
+    /* * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-color: yellow;
+        margin: 0;
+        padding: 0;
+    }
+    #logo {
+        display: inline-block;
+        float: left;
+        margin-left: 3rem;
+        width: 50px;
+        height: 80px;
+    }
+
+    .menu {
+        display: inline-block;
+        padding-right: 10px;
+        margin-left: 60px;
+    } */
+    #image_foot {
+        width: 15px;
+    }
+    footer p {
+        font-size: small;
+    }
+}
